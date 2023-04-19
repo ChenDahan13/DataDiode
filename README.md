@@ -9,4 +9,6 @@
 - EndUser: Receives all the packets from Proxy2 using TCP. Compares the md5 hash that he got with the md5 hash of the file from the packets. If they are the same, the       network is a safe and secure with a reliable tranfer. 
 
 
+
+
 ![Screenshot 2023-04-19 231323](https://user-images.githubusercontent.com/117903915/233189428-5ffd7720-923c-4985-97fe-8f1f27f11731.png)
