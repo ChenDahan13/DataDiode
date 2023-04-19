@@ -1,3 +1,3 @@
 # DataDiode
-## The task's goal:
-### Tranfer file from Sender to Enduser in one way dirction. 
+## The task's goal: Tranfer file from Sender to Enduser on a one way dirction. 
+
