@@ -6,6 +6,6 @@
 - Data diode: Receives packets from Prxoy1 and immediately sends them to Proxy2. Both operations using UDP.
 - Proxy2: Recieves packets from the data diode using UDP. Splites the packets to their sequence and data. The sequences are sent to Proxy3 with TCP, And if he will allow,   The data will be sent to EndUser with TCP.   
 - Prxoy3: Get the sequences of the packets from both proxies. Compares between them and sends instractions to proxies accordingly. If Proxy2 got the packet from Proxy1,     Proxy2 will send it to EndUser and Proxy1 will send the next packet. Otherwise, Proxy1 will send the same packet again and Proxy2 will not do anything.
-- EndUser: Receives all the packets from Proxy2 using TCP. Compares the md5 hash that he got with the md5 hash of the file from the packets. If they are the same, the       network is a safe and secure with a reliable tranfer. 
+- EndUser: Receives all the packets from Proxy2 using TCP. Compares the md5 hash that he got with the md5 hash of the file from the packets. If they are the same, the       network is safe and secure with a reliable tranfer. 
 
 ![Screenshot 2023-04-19 231323](https://user-images.githubusercontent.com/117903915/233189428-5ffd7720-923c-4985-97fe-8f1f27f11731.png)
